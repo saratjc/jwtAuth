@@ -1,0 +1,20 @@
+{
+  "name": "auth-jwt-api",
+  "version": "1.0.0",
+  "description": "API de cadastro e login com JWT, bcrypt e middlewares de autorização por role",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.22.3",
+    "jsonwebtoken": "^9.0.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
